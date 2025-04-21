@@ -4,12 +4,12 @@ import { z } from 'zod'
 
 export const serverEnv = createEnv({
   server: {
-    XAI_API_KEY: z.string().min(1),
-    MISTRAL_API_KEY: z.string().min(1),
-    COHERE_API_KEY: z.string().min(1), 
-    CEREBRAS_API_KEY: z.string().min(1),
-    GROQ_API_KEY: z.string().min(1),
-    E2B_API_KEY: z.string().min(1),
+    //XAI_API_KEY: z.string().min(1),
+    //MISTRAL_API_KEY: z.string().min(1),
+    //COHERE_API_KEY: z.string().min(1), 
+    //CEREBRAS_API_KEY: z.string().min(1),
+    //GROQ_API_KEY: z.string().min(1),
+    //E2B_API_KEY: z.string().min(1),
     ELEVENLABS_API_KEY: z.string().min(1),
     TAVILY_API_KEY: z.string().min(1),
     EXA_API_KEY: z.string().min(1),
